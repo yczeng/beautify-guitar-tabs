@@ -1,0 +1,23 @@
+{
+  "name": "Make ultimate guitar tabs pretty again",
+  "version": "0.0.0.2",
+  "author": "Catherine Zeng",
+  "manifest_version": 2,
+  "description": "Ultimate guitar tabs is full of crap",
+  "permissions": [
+    "http://www.tabs.ultimate-guitar.com/*",
+    "http://tabs.ultimate-guitar.com/*",
+    "https://www.tabs.ultimate-guitar.com/*",
+    "https://tabs.ultimate-guitar.com/*",
+    "http://web.tabs.ultimate-guitar.com/*",
+    "https://web.tabs.ultimate-guitar.com/*",
+    "https://news.ycombinator.com/*"
+  ],
+  "content_scripts": [
+    {
+        "matches": ["https://tabs.ultimate-guitar.com/*", "http://tabs.ultimate-guitar.com/*", "http://www.tabs.ultimate-guitar.com/*","https://www.tabs.ultimate-guitar.com/*","http://web.tabs.ultimate-guitar.com/*","https://web.tabs.ultimate-guitar.com/*", "https://www.tabs.ultimate-guitar.com/?ref=tn_tnmn"],
+        "js" : ["scripts/chrome.js"],
+        "run_at" : "document_idle"
+    }
+  ]
+}
