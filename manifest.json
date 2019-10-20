@@ -16,7 +16,7 @@
   "content_scripts": [
     {
         "matches": ["https://tabs.ultimate-guitar.com/*", "http://tabs.ultimate-guitar.com/*", "http://www.tabs.ultimate-guitar.com/*","https://www.tabs.ultimate-guitar.com/*","http://web.tabs.ultimate-guitar.com/*","https://web.tabs.ultimate-guitar.com/*", "https://www.tabs.ultimate-guitar.com/?ref=tn_tnmn"],
-        "js" : ["scripts/chrome.js"],
+        "js" : ["scripts/guitar.js"],
         "run_at" : "document_idle"
     }
   ]
