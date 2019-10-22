@@ -10,4 +10,4 @@ For now, you can clone this repo and upload the folder to chrome extensions at c
 ```
 git clone https://github.com/yczeng/beautify-guitar-tabs
 ```
-![chrome](images/preview.png)
+![chrome](images/previewnew.png)
