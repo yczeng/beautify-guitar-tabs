@@ -1,12 +1,7 @@
-document.getElementsByClassName("mS99P")[0].innerHTML = ""
-document.getElementsByClassName("_21_lj")[0].innerHTML=""
-document.getElementsByClassName("ztjWI _2GydY")[0].innerHTML=""
-document.getElementsByClassName("eDpei")[0].innerHTML=""
-document.getElementsByClassName("js-ab-regular")[0].innerHTML=""
-document.getElementsByClassName("ztjWI _2GydY")[0].innerHTML=""
-document.getElementsByClassName("_1Dc-f")[0].innerHTML=""
-document.getElementsByClassName("comments")[0].innerHTML=""
-document.getElementsByClassName("_3aR1y_3D2BN")[0].innerHTML=""
-document.getElementsByClassName("_2e92L_17oyS")[0].innerHTML=""
-document.getElementsByClassName("o7EYP")[0].innerHTML=""
-document.getElementsByClassName("_2MgSS _1ScGs")[0].innerHTML=""
+var garbageDivs = ["mS99P", "_21_lj", "ztjWI _2GydY", "eDpei", "js-ab-regular", "ztjWI _2GydY", "_1Dc-f", "comments", "_3aR1y_3D2BN", "_2e92L_17oyS", "o7EYP", "_2MgSS _1ScGs"]
+
+for (i = 0; i<garbageDivs.length; i++){
+	if (document.getElementsByClassName(garbageDivs[i])){
+		document.getElementsByClassName(garbageDivs[i])[0].innerHTML = ""
+	}
+}
