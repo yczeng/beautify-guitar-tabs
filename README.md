@@ -1,5 +1,5 @@
 # beautify-guitar-tabs
-tabs.ultimate-guitar.com is full of crap. Make it clean again.
+tabs.ultimate-guitar.com is [full of crap](images/nastyguitartabs.png). Make it clean again.
 
 # Installation
 ## Chrome
@@ -11,4 +11,4 @@ For now, you can clone this repo and upload the folder to chrome extensions at c
 git clone https://github.com/yczeng/beautify-guitar-tabs
 ```
 
-![chrome](images/beforeafter.gif)
+![chrome](images/previewnew.png)
