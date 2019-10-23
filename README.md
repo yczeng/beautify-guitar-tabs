@@ -1,5 +1,5 @@
 # beautify-guitar-tabs
-tabs.ultimate-guitar.com is [full of crap](images/nastyguitartabs.png). Make it clean again.
+tabs.ultimate-guitar.com is [full of crap](https://raw.githubusercontent.com/yczeng/beautify-guitar-tabs/master/images/nastyguitartabs.png). Make it clean again.
 
 # Installation
 ## Chrome
